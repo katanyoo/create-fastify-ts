@@ -7,8 +7,8 @@ import { resolve } from 'path';
 import configApp from './config/app'
 import configSwagger from './config/swagger'
 
-function build(opts = {}) {
-  const app = fastify(configApp)
+function build(opts: object = configApp) {
+  const app = fastify(opts)
   app.register(fastifyBlipp)
   app.register(require('fastify-swagger'), configSwagger)
 
