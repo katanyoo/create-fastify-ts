@@ -42,6 +42,14 @@ inquirer.prompt(QUESTIONS)
           const options = { cwd: dir };
           await execa('npm', ['install'], options);
         }
+      },
+      {
+        title: '🔥 Git intialize',
+        task: async () => {
+          const options = { cwd: dir };
+          await execa('git', ['init'], options);
+          await execa('husky', ['install'], options);
+        }
       }
     ]);
 
