@@ -7,4 +7,6 @@
 <a href="https://www.npmjs.com/package/create-fastify-ts" target="_blank"><img src="https://img.shields.io/npm/dm/create-fastify-ts.svg" alt="NPM Downloads" /></a>
 
 ## Creating the app
-```npx create-fastify-ts```
+```
+npx create-fastify-ts
+```
