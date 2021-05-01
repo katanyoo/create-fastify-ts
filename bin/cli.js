@@ -48,7 +48,9 @@ inquirer.prompt(QUESTIONS)
         task: async () => {
           const options = { cwd: dir };
           await execa('git', ['init'], options);
+          await execa('npx', ['gitignore', 'node'], options);
           await execa('npx', ['husky', 'install'], options);
+          await execa('chmod', ['755', './husky/commit-msg'], options);
         }
       }
     ]);
