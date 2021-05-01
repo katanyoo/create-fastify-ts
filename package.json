@@ -1,0 +1,29 @@
+{
+  "name": "create-fastify-ts",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "release": "standard-version",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch"
+  },
+  "bin": {
+    "create-fastify-ts": "bin/cli.js"
+  },
+  "keywords": [],
+  "author": "Katanyoo Ubalee <ubalee.k@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "execa": "^5.0.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.0.0",
+    "listr": "^0.14.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "husky": "^6.0.0",
+    "standard-version": "^9.2.0"
+  }
+}
