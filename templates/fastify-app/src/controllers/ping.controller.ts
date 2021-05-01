@@ -1,7 +1,8 @@
 import { FastifyReply, FastifyRequest } from 'fastify';
 import { Controller, GET, getInstanceByToken } from 'fastify-decorators';
-import { PingService } from '../services/ping.service';
-import { pingSchema } from './ping.schema';
+import PingService from '../services/ping.service';
+import pingSchema from './ping.schema';
+
 
 @Controller({ route: '/ping' })
 export default class PingController {
@@ -15,7 +16,7 @@ export default class PingController {
     }
   })
   async pingHandler(req: FastifyRequest, reply: FastifyReply): Promise<object> {
-    return this.pingService?.ping()
+    return { message: this.pingService?.ping() }
   }
 
 }

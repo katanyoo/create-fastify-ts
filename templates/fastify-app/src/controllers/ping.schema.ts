@@ -1,6 +1,6 @@
 import { FastifySchema } from "fastify";
 
-export const pingSchema: FastifySchema = {
+const pingSchema: FastifySchema = {
   response: {
     200: {
       type: 'object',
@@ -11,3 +11,5 @@ export const pingSchema: FastifySchema = {
     }
   }
 }
+
+export default pingSchema

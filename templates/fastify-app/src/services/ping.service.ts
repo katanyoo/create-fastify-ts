@@ -1,13 +1,13 @@
 import { Service, Initializer, Destructor } from 'fastify-decorators';
 
 @Service()
-export class PingService {
+export default class PingService {
   @Initializer()
   async init(): Promise<void> {
   }
 
-  async ping(count: number = 0): Promise<object> {
-    return { message: 'pong' }
+  ping(): string {
+    return 'pong'
   }
 
   @Destructor()
