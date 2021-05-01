@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/katanyoo/create-fastify-ts/compare/v0.1.4...v0.1.5) (2021-05-01)
+
+
+### Bug Fixes
+
+* **git:** gitignore and filepermission ([864a15e](https://github.com/katanyoo/create-fastify-ts/commit/864a15e250b83946a54fd177b934823fdcacbc99))
+
 ### [0.1.4](https://github.com/katanyoo/create-fastify-ts/compare/v0.1.3...v0.1.4) (2021-05-01)
 
 
