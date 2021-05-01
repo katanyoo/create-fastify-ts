@@ -37,20 +37,19 @@ inquirer.prompt(QUESTIONS)
         }
       },
       {
-        title: '📦 Install npm dependencies',
-        task: async () => {
-          const options = { cwd: dir };
-          await execa('npm', ['install'], options);
-        }
-      },
-      {
         title: '🔥 Git intialize',
         task: async () => {
           const options = { cwd: dir };
           await execa('git', ['init'], options);
           await execa('npx', ['gitignore', 'node'], options);
-          await execa('npx', ['husky', 'install'], options);
           await execa('chmod', ['755', '.husky/commit-msg'], options);
+        }
+      },
+      {
+        title: '📦 Install npm dependencies',
+        task: async () => {
+          const options = { cwd: dir };
+          await execa('npm', ['install'], options);
         }
       }
     ]);

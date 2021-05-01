@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
+    "prepare": "husky install",
     "build": "tsc",
     "prestart": "npm run build",
     "start": "node -r ts-node/register ./src/app.ts",
