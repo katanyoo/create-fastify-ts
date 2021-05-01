@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/katanyoo/create-fastify-ts/compare/v0.1.6...v0.1.7) (2021-05-01)
+
+
+### Bug Fixes
+
+* **git hook:** automatic setup git hook after install ([dd85679](https://github.com/katanyoo/create-fastify-ts/commit/dd856791df684553d43046b7f2f0bd467424b475))
+* **git hook:** change the order of task ([c156cdb](https://github.com/katanyoo/create-fastify-ts/commit/c156cdb31b87d132e16faa14a7c44e25c5ee3b19))
+* **husky:** git hook for  commitlint ([c6ebe8b](https://github.com/katanyoo/create-fastify-ts/commit/c6ebe8b7094b763622a190369da3d1b85fb94600))
+
 ### [0.1.6](https://github.com/katanyoo/create-fastify-ts/compare/v0.1.5...v0.1.6) (2021-05-01)
 
 
