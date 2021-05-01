@@ -2,18 +2,28 @@
   "name": "create-fastify-ts",
   "version": "0.1.0",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/katanyoo/create-fastify-ts.git"
+  },
+  "homepage": "https://github.com/katanyoo/create-fastify-ts",
+  "keywords": [
+    "generator",
+    "fastify",
+    "typescript",
+    "template"
+  ],
+  "author": "Katanyoo Ubalee <ubalee.k@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "create-fastify-ts": "bin/cli.js"
+  },
   "scripts": {
     "release": "standard-version",
     "release:major": "standard-version --release-as major",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch"
   },
-  "bin": {
-    "create-fastify-ts": "bin/cli.js"
-  },
-  "keywords": [],
-  "author": "Katanyoo Ubalee <ubalee.k@gmail.com>",
-  "license": "ISC",
   "dependencies": {
     "execa": "^5.0.0",
     "handlebars": "^4.7.7",
