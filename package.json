@@ -19,6 +19,7 @@
     "create-fastify-ts": "bin/cli.js"
   },
   "scripts": {
+    "prepare": "husky install",
     "release": "standard-version",
     "release:major": "standard-version --release-as major",
     "release:minor": "standard-version --release-as minor",
