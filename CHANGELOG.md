@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/katanyoo/create-fastify-ts/compare/v0.1.8...v0.2.0) (2021-05-13)
+
+
+### Features
+
+* **db:** add db connection and sample model ([2b7d7d9](https://github.com/katanyoo/create-fastify-ts/commit/2b7d7d9a0db1595fae54f9d47a493485ecaabe29))
+
+
+### Bug Fixes
+
+* **nodemon:** exec script ([af7cca8](https://github.com/katanyoo/create-fastify-ts/commit/af7cca867c44e1fa46587f037c78cd2ae5a9ea70))
+
 ### [0.1.8](https://github.com/katanyoo/create-fastify-ts/compare/v0.1.7...v0.1.8) (2021-05-04)
 
 ### [0.1.7](https://github.com/katanyoo/create-fastify-ts/compare/v0.1.6...v0.1.7) (2021-05-01)
