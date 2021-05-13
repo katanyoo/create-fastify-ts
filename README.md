@@ -10,13 +10,14 @@ This tool helps you generate a [Fastify](https://www.fastify.io/) application wi
 we also automatic these actions:
 * initialize a git
 * install the dependency packages.
-# Creating the project
+
+## Creating the project
 ```
 npx create-fastify-ts
 ```
 and then you just only input your project name.
 
-# Project Structure
+## Project Structure
 `create-fastify-ts` generate a project structure for you like this:
 ```
 YOUR APP DIRECTORY
@@ -46,5 +47,8 @@ YOUR APP DIRECTORY
 └── tsconfig.json
 ```
 
-# Contributing
+## Contributing
 If you feel you can help in any way, please open a pull request or open an issue.
+
+## Support me
+<a href="https://www.buymeacoffee.com/katanyoo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
