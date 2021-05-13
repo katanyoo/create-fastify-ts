@@ -5,7 +5,7 @@
 <a href="https://www.npmjs.com/package/create-fastify-ts" target="_blank"><img src="https://img.shields.io/npm/dm/create-fastify-ts.svg" alt="NPM Downloads" /></a>
 
 
-This tool project helps you generate a [Fastify](https://www.fastify.io/) application with [TypeScript](https://www.npmjs.com/package/typescript) and  includes [TypeORM](https://typeorm.io) to connect to the database.
+This tool helps you generate a [Fastify](https://www.fastify.io/) application with [TypeScript](https://www.npmjs.com/package/typescript) and  includes [TypeORM](https://typeorm.io) to connect to the database.
 
 we also automatic these actions:
 * initialize a git
