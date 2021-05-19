@@ -13,7 +13,7 @@ we also automatic these actions:
 
 ## Creating the project
 ```
-npx create-fastify-ts
+npx create-fastify-ts@latest
 ```
 and then you just only input your project name.
 
@@ -21,6 +21,7 @@ and then you just only input your project name.
 `create-fastify-ts` generate a project structure for you like this:
 ```
 YOUR APP DIRECTORY
+├── .env
 ├── README.md
 ├── jest.config.js
 ├── jest.environment.cjs
